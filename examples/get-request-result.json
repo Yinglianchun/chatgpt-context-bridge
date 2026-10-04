@@ -1,0 +1,33 @@
+{
+  "jsonrpc": "2.0",
+  "id": "read-example",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Request material page."
+      }
+    ],
+    "structuredContent": {
+      "request_id": "wreq_example_001",
+      "event_id": "evt_example_001",
+      "subscription_id": "sub_example_001",
+      "binding_revision": 1,
+      "session_id": 1,
+      "trigger_message_id": 101,
+      "material_revision": 1,
+      "snapshot_sha256": "aaa235d7997bf595e02b9879552e4db05cd6647ef7f60a541da0df63415d1488",
+      "material_bytes": 526,
+      "request_state": "ready",
+      "delivery_state": "received",
+      "reply": null,
+      "snapshot": null,
+      "snapshot_json": "{\"messages\":[{\"attachments\":[],\"codex_phase\":null,\"content\":\"@ChatGPT（官端） 请接着讨论书架设计。\",\"created_at\":\"2026-10-04T00:00:00Z\",\"id\":101,\"role\":\"user\",\"session_id\":1,\"source\":\"chat\"}],\"recall\":{\"additional_context\":\"\",\"notes\":[{\"id\":\"synthetic_memory_001\",\"text\":\"虚构记忆：书架需要预留绘本的高度。\"}],\"recalled_ids\":[\"synthetic_memory_001\"],\"status\":\"ok\"},\"revision\":1,\"round_count\":1,\"round_definition\":\"role-runs-v1\",\"round_limit\":10,\"rounds\":[{\"complete\":false,\"message_ids\":[101]}]}",
+      "snapshot_json_part": null,
+      "next_cursor": null,
+      "complete": true,
+      "truncated": false
+    },
+    "isError": false
+  }
+}

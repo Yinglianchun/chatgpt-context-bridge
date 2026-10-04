@@ -1,0 +1,11 @@
+{
+  "jsonrpc": "2.0",
+  "id": "read-example",
+  "method": "tools/call",
+  "params": {
+    "name": "get_request",
+    "arguments": {
+      "request_id": "wreq_example_001"
+    }
+  }
+}

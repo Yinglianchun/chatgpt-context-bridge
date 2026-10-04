@@ -1,0 +1,16 @@
+{
+  "eventId": "evt_example_001",
+  "name": "chat.requested",
+  "timestamp": "2026-10-04T00:00:00Z",
+  "cursor": null,
+  "data": {
+    "request_id": "wreq_example_001",
+    "route": "chat-context",
+    "binding_revision": 1,
+    "session_id": 1,
+    "trigger_message_id": 101,
+    "round_count": 1,
+    "material_revision": 1,
+    "inline_snapshot": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "text": "@ChatGPT（官端） 请接着讨论书架设计。",
+  "recipient": {
+    "kind": "official_work",
+    "route": "chat-context",
+    "mention": {
+      "id": "0123456789abcdef0123456789abcdef",
+      "label": "@ChatGPT（官端）",
+      "start": 0,
+      "end": 12
+    }
+  }
+}

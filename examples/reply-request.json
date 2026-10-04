@@ -1,0 +1,15 @@
+{
+  "jsonrpc": "2.0",
+  "id": "reply-example",
+  "method": "tools/call",
+  "params": {
+    "name": "reply",
+    "arguments": {
+      "request_id": "wreq_example_001",
+      "event_id": "evt_example_001",
+      "subscription_id": "sub_example_001",
+      "reply_id": "reply_example_001",
+      "text": "这是虚构示例回复：可以先按绘本高度规划一格。"
+    }
+  }
+}

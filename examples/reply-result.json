@@ -1,0 +1,19 @@
+{
+  "jsonrpc": "2.0",
+  "id": "reply-example",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Reply saved."
+      }
+    ],
+    "structuredContent": {
+      "request_id": "wreq_example_001",
+      "message_id": 102,
+      "session_id": 1,
+      "duplicate": false
+    },
+    "isError": false
+  }
+}
